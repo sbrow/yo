@@ -1,0 +1,17 @@
+{
+    "name": "sbrow/yo",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yo\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yo\\ServiceProvider"
+            ]
+        }
+    }
+}
